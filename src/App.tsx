@@ -4,12 +4,13 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Technologies from "./components/technoligies/Technologies";
 import { ToastContainer } from "react-toastify";
+import type { Technology } from "./type";
 
 function App() {
-  const technologiesPromise = async() => {
+  const technologiesPromise = async(): Promise<Technology[]> => {
       const res = await fetch("/data.json");
-      const data = await res.json();
-      return data
+      const data: Technology[] = await res.json();
+      return data;
    }
    
   return (

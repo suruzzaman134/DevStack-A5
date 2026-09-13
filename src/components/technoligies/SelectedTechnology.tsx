@@ -1,6 +1,11 @@
 import { RxCross2 } from "react-icons/rx";
-
-export default function SelectedTechnology({ selectTechnology, handleAllRemove, handleRemove }) {
+import type { Technology } from "../../type";
+interface SelectedTechnologyProps {
+  selectTechnology: Technology[];
+  handleAllRemove: () => void;
+  handleRemove: (id: string) => void;
+}
+export default function SelectedTechnology({ selectTechnology, handleAllRemove, handleRemove }: SelectedTechnologyProps) {
   return (
     <>
     <div className="border-1 rounded-2xl p-3 py-4  border-gray-200">

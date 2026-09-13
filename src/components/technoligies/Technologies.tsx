@@ -2,12 +2,17 @@ import { use, useState } from "react"
 import TechnologiesCard from "./TechnologiesCard";
 import SelectedTechnology from "./SelectedTechnology";
 import { toast } from "react-toastify";
+import type { Technology } from "../../type";
 
-export default function Technologies({technologiesPromise}) {
+interface TechnologiesProps {
+  technologiesPromise: Promise<Technology[]>;
+}
+
+export default function Technologies({technologiesPromise}: TechnologiesProps) {
    const technologiesData = use(technologiesPromise);
    // console.log(technologiesData)
-   const [selectTechnology, setSelectTechnology] = useState([]);
-   const handleSelectTechnology = (technology) => {
+   const [selectTechnology, setSelectTechnology] = useState<Technology[]>([]);
+   const handleSelectTechnology = (technology: Technology) => {
       setSelectTechnology([...selectTechnology, technology])
       toast.success(`${technology.name} added to stack!`);
    }
@@ -15,8 +20,8 @@ export default function Technologies({technologiesPromise}) {
       setSelectTechnology([]);
       toast.error(`removed all from stack!`);
    }
-   const handleRemove = (id) => {
-      const newSelect = selectTechnology.filter(st => st.id != id);
+   const handleRemove = (id: string) => {
+      const newSelect: Technology[] = selectTechnology.filter(st => st.id != id);
       setSelectTechnology(newSelect);
       toast.error(`removed from stack!`);
    }

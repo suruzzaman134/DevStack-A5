@@ -1,6 +1,10 @@
 import { useState } from "react";
-
-export default function TechnologiesCard({ data, handleSelectTechnology }) {
+import type { Technology } from "../../type";
+interface TechnologiesCardProps {
+  data: Technology;
+  handleSelectTechnology: (technology: Technology) => void;
+}
+export default function TechnologiesCard({ data, handleSelectTechnology }: TechnologiesCardProps) {
   const [isStack, setIsStack] = useState(false);
   return (
     <div className="rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
