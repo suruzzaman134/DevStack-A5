@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Java",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "tag": "Robust",
+    "icon": "☕",
+    "description": "A secure, object-oriented programming language designed for portability and scale."
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "category": "Language",
+    "level": "Advanced",
+    "rating": 4.8,
+    "tag": "Popular",
+    "icon": "JS",
+    "description": "A versatile programming language for building interactive web applications."
+  },
+  {
+    "id": 3,
+    "name": "TypeScript",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "tag": "Typed",
+    "icon": "TS",
+    "description": "A strongly typed programming language that builds on JavaScript."
+  },
+  {
+    "id": 4,
+    "name": "Python",
+    "category": "Language",
+    "level": "Advanced",
+    "rating": 4.9,
+    "tag": "Easy",
+    "icon": "🐍",
+    "description": "A high-level language known for simplicity, readability, and flexibility."
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "category": "Library",
+    "level": "Advanced",
+    "rating": 4.9,
+    "tag": "Modern",
+    "icon": "⚛",
+    "description": "A JavaScript library for building fast and reusable user interfaces."
+  },
+  {
+    "id": 6,
+    "name": "Node.js",
+    "category": "Runtime",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "tag": "Backend",
+    "icon": "⬢",
+    "description": "A JavaScript runtime built for scalable server-side applications."
+  },
+  {
+    "id": 7,
+    "name": "Next.js",
+    "category": "Framework",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "tag": "Fullstack",
+    "icon": "N",
+    "description": "A React framework for building modern full-stack web applications."
+  },
+  {
+    "id": 8,
+    "name": "Tailwind CSS",
+    "category": "CSS",
+    "level": "Advanced",
+    "rating": 4.8,
+    "tag": "Utility",
+    "icon": "TW",
+    "description": "A utility-first CSS framework for creating custom modern designs."
+  },
+  {
+    "id": 9,
+    "name": "Git",
+    "category": "Tool",
+    "level": "Advanced",
+    "rating": 4.6,
+    "tag": "Essential",
+    "icon": "↗",
+    "description": "A distributed version control system for tracking code changes."
+  },
+  {
+    "id": 10,
+    "name": "MongoDB",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": 4.5,
+    "tag": "NoSQL",
+    "icon": "M",
+    "description": "A flexible document-oriented database designed for modern applications."
+  },
+  {
+    "id": 11,
+    "name": "MySQL",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": 4.5,
+    "tag": "SQL",
+    "icon": "DB",
+    "description": "A popular relational database system used for storing structured data."
+  },
+  {
+    "id": 12,
+    "name": "Docker",
+    "category": "DevOps",
+    "level": "Beginner",
+    "rating": 4.4,
+    "tag": "Container",
+    "icon": "🐳",
+    "description": "A platform for packaging and running applications in isolated containers."
+  }
+]
