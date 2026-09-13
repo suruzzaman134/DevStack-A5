@@ -1,122 +1,122 @@
 [
   {
-    "id": 1,
-    "name": "Java",
-    "category": "Language",
-    "level": "Intermediate",
-    "rating": 4.6,
-    "tag": "Robust",
-    "icon": "☕",
-    "description": "A secure, object-oriented programming language designed for portability and scale."
-  },
-  {
-    "id": 2,
-    "name": "JavaScript",
-    "category": "Language",
-    "level": "Advanced",
-    "rating": 4.8,
-    "tag": "Popular",
-    "icon": "JS",
-    "description": "A versatile programming language for building interactive web applications."
-  },
-  {
-    "id": 3,
-    "name": "TypeScript",
-    "category": "Language",
-    "level": "Intermediate",
-    "rating": 4.7,
-    "tag": "Typed",
-    "icon": "TS",
-    "description": "A strongly typed programming language that builds on JavaScript."
-  },
-  {
-    "id": 4,
-    "name": "Python",
-    "category": "Language",
-    "level": "Advanced",
-    "rating": 4.9,
-    "tag": "Easy",
-    "icon": "🐍",
-    "description": "A high-level language known for simplicity, readability, and flexibility."
-  },
-  {
-    "id": 5,
+    "id": "react",
     "name": "React",
-    "category": "Library",
-    "level": "Advanced",
+    "category": "Frontend",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
     "rating": 4.9,
-    "tag": "Modern",
-    "icon": "⚛",
-    "description": "A JavaScript library for building fast and reusable user interfaces."
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
   },
   {
-    "id": 6,
-    "name": "Node.js",
-    "category": "Runtime",
-    "level": "Intermediate",
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Frontend",
+    "description": "A versatile programming language used to create interactive and dynamic web applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Frontend",
+    "description": "A strongly typed programming language that builds on JavaScript for scalable applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Typed"
+  },
+  {
+    "id": "html5",
+    "name": "HTML5",
+    "category": "Frontend",
+    "description": "The standard markup language used to structure and present content on the web.",
+    "icon": "https://icon.icepanel.io/Technology/svg/HTML5.svg",
     "rating": 4.7,
-    "tag": "Backend",
-    "icon": "⬢",
-    "description": "A JavaScript runtime built for scalable server-side applications."
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
   },
   {
-    "id": 7,
-    "name": "Next.js",
-    "category": "Framework",
-    "level": "Intermediate",
-    "rating": 4.8,
-    "tag": "Fullstack",
-    "icon": "N",
-    "description": "A React framework for building modern full-stack web applications."
+    "id": "css3",
+    "name": "CSS3",
+    "category": "Frontend",
+    "description": "A stylesheet language used to design, style, and create responsive web interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/CSS3.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
   },
   {
-    "id": 8,
+    "id": "tailwindcss",
     "name": "Tailwind CSS",
-    "category": "CSS",
-    "level": "Advanced",
+    "category": "Frontend",
+    "description": "A utility-first CSS framework for rapidly building modern and responsive user interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
     "rating": 4.8,
-    "tag": "Utility",
-    "icon": "TW",
-    "description": "A utility-first CSS framework for creating custom modern designs."
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
   },
   {
-    "id": 9,
-    "name": "Git",
-    "category": "Tool",
-    "level": "Advanced",
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "Full Stack",
+    "description": "A React framework for building fast, scalable, and production-ready web applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Modern"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "A JavaScript runtime that allows developers to build scalable server-side applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Backend"
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "category": "Backend",
+    "description": "A lightweight Node.js web framework for building APIs and server-side applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Express.svg",
     "rating": 4.6,
-    "tag": "Essential",
-    "icon": "↗",
-    "description": "A distributed version control system for tracking code changes."
+    "difficulty": "Intermediate",
+    "badge": "Minimal"
   },
   {
-    "id": 10,
+    "id": "mongodb",
     "name": "MongoDB",
     "category": "Database",
-    "level": "Intermediate",
-    "rating": 4.5,
-    "tag": "NoSQL",
-    "icon": "M",
-    "description": "A flexible document-oriented database designed for modern applications."
+    "description": "A flexible NoSQL database designed for storing and managing document-oriented data.",
+    "icon": "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "NoSQL"
   },
   {
-    "id": 11,
-    "name": "MySQL",
-    "category": "Database",
-    "level": "Intermediate",
-    "rating": 4.5,
-    "tag": "SQL",
-    "icon": "DB",
-    "description": "A popular relational database system used for storing structured data."
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "description": "A distributed version control system used to track code changes and collaborate with developers.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Git.svg",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
   },
   {
-    "id": 12,
+    "id": "docker",
     "name": "Docker",
     "category": "DevOps",
-    "level": "Beginner",
-    "rating": 4.4,
-    "tag": "Container",
-    "icon": "🐳",
-    "description": "A platform for packaging and running applications in isolated containers."
+    "description": "A platform for packaging applications and their dependencies into portable containers.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
+    "rating": 4.5,
+    "difficulty": "Intermediate",
+    "badge": "DevOps"
   }
 ]

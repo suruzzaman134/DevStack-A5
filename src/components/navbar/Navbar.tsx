@@ -3,7 +3,8 @@ import logo from "../../assets/logo-text.png";
 
 export default function Navbar() {
   return (
-    <div className="py-5 text-gray-500 font-semibold">
+    <div>
+      <div className="py-5 text-gray-500 font-semibold bg-white">
       <div className=" container mx-auto flex justify-between items-center">
          <IoMdMenu className="md:hidden text-2xl" />
         <div>
@@ -31,6 +32,7 @@ export default function Navbar() {
           <button className="gradient-btn px-5 py-2 rounded-2xl">Sign Up</button>
         </div>
       </div>
+    </div>
     </div>
   );
 }
